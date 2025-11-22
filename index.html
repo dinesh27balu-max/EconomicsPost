@@ -85,7 +85,36 @@ const posts = {
     earlyLink: "https://www.early-learn.co.uk/"
   },
   blogs: [
-    { id: "b1", title: "Welcome to EconomicsPost", content: "<p>This is the first blog entry.</p>", createdAt: "2024-01-01" }
+    { 
+      id: "b1", 
+      title: "The Unemployment Crisis in the UK", 
+      content: `
+        <p>The unemployment rate in the UK rose to 5% in the three months to September, and this is only expected to rise.</p>
+        
+        <p><strong>Why this happened:</strong></p>
+        
+        <p>It is perhaps useful to look closely at what has led to the rise in unemployment in the past year. A potential reason could be the increase in Secondary Class 1 National Insurance Contribution, which went from 13.8% to 15%. This means that employers must pay more tax per employee, although the Employment Allowance changes reduced the impact for small businesses, it did not fully offset the higher NIC rate for medium to large employers, who make up most of total employment. This means that the total cost of employment increased. As a result, there were hiring restraints, this is because firms mainly wanted to adjust to this change through a decrease in hiring to support existent staff who had already had the training needed for the job.</p>
+        
+        <p>Additionally, UK's productivity rate has remained the same for the past 3 years, while UK's inflation rate has remained above the 2% level for most of this time. To keep employees' real wages from falling, businesses increased nominal wages, thus, labour cost per worker has increased but output per worker has not, meaning firms had to choose between greater price for their products (which could decrease demand) or cut costs by reducing workforce. This meant that some firms have had to lay off workers to manage their finance, which has also contributed to the increase in unemployment rate.</p>
+        
+        <p>Economic inactivity has also surged, with approximately 2.8 million people classified as long-term sick as of Q3 2025. Although the reason for this is not clear, it could potentially be because of post-pandemic health impacts such as depression and anxiety.</p>
+        
+        <p>Although cutting interest rates might stimulate hiring, this approach carries the risk of reigniting inflation. The trade-off between potential job creation and the unemployment that could result from renewed price pressures makes this policy lever particularly uncertain.</p>
+        
+        <p><strong>Future outlook:</strong></p>
+        
+        <p>Even though efforts are being made to reduce unemployment, the Employment Rights Bill that is currently under review may in fact exacerbate this problem.</p>
+        
+        <p>For example, one of the policy changes is increased dismissal protection for industrial action which will be implemented sometime in 2025 will mean that dismissal for taking part in industrial action becomes automatically unfair, and the current 12-week limit is removed. This means that workers can strike indefinitely without the risk of job loss, making strikes more disruptive for firms. As a result, operational costs will increase and damage the reputation of the firm for reliable service, which incentivises firms to increase their investment in automating their process and decrease hiring human workers.</p>
+        
+        <p>Perhaps even more significant is the proposal to make unfair dismissal protection a day-one right, slated for 2027. Currently, workers must complete two years of service before gaining this protection. Now, every new hire needs to be carefully considered, so firms will only be willing to hire workers who they deem will work to a "certain" standard. Therefore, young workers with no experience or long-term unemployed may be rejected, which will add to the unemployment crisis the UK is facing.</p>
+        
+        <p><strong>Conclusion:</strong></p>
+        
+        <p>I believe that although the unemployment crisis seems to be spiralling out of control, with effective policy changes that addresses the key issues that workers face without discouraging firms from hiring workers, the UK can recover from this. Although, I agree that it is easier said than done, with firm government commitment and a demonstration of political competence, both employees and employers may gain the confidence needed to invest in the future. Reducing uncertainty in the business environment could, in itself, become a powerful catalyst for job creation and economic stability.</p>
+      `, 
+      createdAt: "2025-11-22" 
+    }
   ],
   books: [
     {
@@ -193,8 +222,7 @@ const posts = {
         <p>Krugman's discussion about a moral hazard forming due to the public's perception that the Federal Reserve can control the market however it wants is still relevant today. Central banks have to provide stability without encouraging risk-taking behaviour.</p>
       `,
       createdAt: "2025-11-15"
-    },
-    { id: "bk1", title: "Thinking about markets", content: "<p>Short book note.</p>", createdAt: "2024-01-02" }
+    }
   ]
 };
 
@@ -311,5 +339,4 @@ render();
 </script>
 </body>
 </html>
-
 
